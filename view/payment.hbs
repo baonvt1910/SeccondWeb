@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{{>head title=this.title subpage='Payment' }}
+
+<body>
+    {{>header  title=this.title}}
+
+
+    <main>
+        <form   >
+                <BR> ProductName:
+                <input type="text" class="form-control" name="ProductName" id="ProductName">
+                <BR> ProductCode:
+                <input type="text" class="form-control" name="ProductCode" id="ProductCode">
+                <BR> Price:
+                <input type="number" class="form-control" name="Price" id="Price">
+                <BR> Brand:
+                <input type="text" class="form-control" name="Brand" id="Brand">
+                <BR> ImgLink:
+                <input type="text" class="form-control" name="ImgLink" id="ImgLink">
+                 <input type="submit"  class="btn btn-primary" value="Create"> 
+            </form>
+    </main>
+    
+
+    {{>footer}}
+</body>
+
+</html>
